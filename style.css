@@ -19,9 +19,9 @@ p {
 }
 
 .up {
-    padding-top: 80px;
-    padding-left: 10px;
+
     display: flex;
+    height: 300px;
     width: 0, auto;
 
 }
@@ -29,15 +29,21 @@ p {
 .up-right {
 
     width: 50%;
+
+
 }
 
 .up-left {
+
+    left: 100px;
     width: 50%;
 }
 
 .up-right img {
-    height: 90%;
-    width: 100%;
+
+    width: 95%;
+    height: 300px;
+
 }
 
 .button {
@@ -78,7 +84,7 @@ p {
 
     width: 50%;
     right: 60px;
-    bottom: -400px;
+    bottom: -100px;
     position: absolute;
 
 }
