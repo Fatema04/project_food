@@ -22,7 +22,7 @@ p {
     padding-top: 80px;
     padding-left: 10px;
     display: flex;
-    min-width: 100%;
+    width: 0, auto;
 
 }
 
@@ -36,13 +36,9 @@ p {
 }
 
 .up-right img {
-    height: 80%;
+    height: 90%;
     width: 100%;
 }
-
-
-
-
 
 .button {
     font-size: 20px;
@@ -59,22 +55,36 @@ p {
     background-image: url(images/Frame\ 57.jpg);
     background-size: cover;
     height: 70%;
-
+    width: 0, auto;
     display: flex;
 }
 
 .center-left img {
-    width: 40%;
-    height: 75%;
+    width: 50%;
+    height: 95%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.center-left {
+
+    width: 50%;
+
+    position: relative;
+    padding-left: 90px;
 }
 
 .center-right {
+
     width: 50%;
+    right: 60px;
+    bottom: -400px;
+    position: absolute;
+
 }
 
 .item-area {
-    width: 100%;
-
+    width: 0, auto;
 }
 
 .text {
@@ -113,14 +123,14 @@ p {
     display: flex;
     border-radius: 10px;
     box-shadow: 3px 3px 15px rgb(96, 96, 96);
-    margin-left: 105px;
+    margin-left: 100px;
     display: flex;
     justify-content: space-around;
 
 }
 
 footer {
-
+    width: 0, auto;
     margin-top: 20px;
     padding: 10px;
     color: #fff;
